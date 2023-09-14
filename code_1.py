@@ -18,3 +18,7 @@ def login():
         print('Не Верный Пароль')
     elif logins != add[0]:
         print('Не Верный Логин')
+    elif logins != add[0] and logins != add[1]:
+        print('Не Верный Логин / Пароль')
+    else:
+        print('Ошибка')
